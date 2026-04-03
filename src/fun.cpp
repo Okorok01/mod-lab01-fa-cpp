@@ -61,7 +61,6 @@ unsigned int faStr2(const char *str) {
 
 
 unsigned int faStr3(const char *str) {
-    
     unsigned int total_length = 0;
     unsigned int word_count = 0;
     const char *p = str;
@@ -73,9 +72,9 @@ unsigned int faStr3(const char *str) {
         total_length += (p - start);
         ++word_count;
     }
-   
-
-    if (word_count == 0) return 0;
-
+    unsigned int result = 0;
+    if (word_count != 0) {
+        result = (total_length + word_count / 2) / word_count;
+    }
     return 0;
 }
