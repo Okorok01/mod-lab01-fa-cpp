@@ -13,7 +13,9 @@ unsigned int faStr1(const char *str) {
         if (*p == '\0') break;
         const char *start = p;
 
+
         while (*p != '\0' && *p != ' ') ++p;
+
 
         bool has_digit = false;
         for (const char *q = start; q < p; ++q) {
@@ -26,6 +28,7 @@ unsigned int faStr1(const char *str) {
     }
     return count;
 }
+
 
 
 unsigned int faStr2(const char *str) 
@@ -71,6 +74,8 @@ unsigned int faStr3(const char *str) {
         total_length += (p - start);
         ++word_count;
     }
+   
+
     if (word_count == 0) return 0;
 
     return (total_length + word_count / 2) / word_count;

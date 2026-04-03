@@ -1,9 +1,12 @@
 // Copyright 2022 UNN-IASR
 #include "fun.h"
+
+
 #include <iostream>
 #include <cassert>
 
 #include "fun.h"
+
 int main() {
         run_tests();
     std::cout << "\nПримеры из условия:\n";
