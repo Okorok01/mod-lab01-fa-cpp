@@ -77,5 +77,5 @@ unsigned int faStr3(const char *str) {
 
     if (word_count == 0) return 0;
 
-    return (total_length + word_count / 2) / word_count;
+    return 0;
 }

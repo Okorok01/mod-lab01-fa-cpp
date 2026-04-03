@@ -28,5 +28,4 @@ int main() {
     std::cout << "faStr3(\"\") = " << faStr3(s5) << std::endl;
     const char* s6 = "   ";
     std::cout << "faStr3(\"   \") = " << faStr3(s6) << std::endl;
-    return 0;
-}
+    return 0;}
