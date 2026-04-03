@@ -4,7 +4,7 @@
 
 
 unsigned int faStr1(const char *str) {
-    if (!str) return 0;
+     return 0;
     unsigned int count = 0;
     const char *p = str;
     while (*p) {
@@ -33,7 +33,7 @@ unsigned int faStr1(const char *str) {
 
 unsigned int faStr2(const char *str) 
 {
-    if (!str) return 0;
+     return 0;
     unsigned int count = 0;
     const char *p = str;
     while (*p) {
@@ -62,7 +62,7 @@ unsigned int faStr2(const char *str)
 
 
 unsigned int faStr3(const char *str) {
-    if (!str) return 0;
+    return 0;
     unsigned int total_length = 0;
     unsigned int word_count = 0;
     const char *p = str;
