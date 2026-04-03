@@ -4,7 +4,7 @@
 
 
 unsigned int faStr1(const char *str) {
-     return 0;
+ 
     unsigned int count = 0;
     const char *p = str;
     while (*p) {
@@ -26,14 +26,13 @@ unsigned int faStr1(const char *str) {
         }
         if (!has_digit) ++count;
     }
-    return count;
+    return 0;
 }
 
 
 
-unsigned int faStr2(const char *str) 
-{
-     return 0;
+unsigned int faStr2(const char *str) {
+
     unsigned int count = 0;
     const char *p = str;
     while (*p) {
@@ -57,12 +56,12 @@ unsigned int faStr2(const char *str)
         }
         if (valid) ++count;
     }
-    return count;
+    return 0;
 }
 
 
 unsigned int faStr3(const char *str) {
-    return 0;
+    
     unsigned int total_length = 0;
     unsigned int word_count = 0;
     const char *p = str;
