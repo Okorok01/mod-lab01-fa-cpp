@@ -26,6 +26,8 @@ unsigned int faStr1(const char *str) {
     }
     return count;
 }
+
+
 unsigned int faStr2(const char *str) 
 {
     if (!str) return 0;
@@ -70,6 +72,6 @@ unsigned int faStr3(const char *str) {
         ++word_count;
     }
     if (word_count == 0) return 0;
-    
+
     return (total_length + word_count / 2) / word_count;
 }
