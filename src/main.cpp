@@ -1,7 +1,7 @@
 // Copyright 2022 UNN-IASR
-#include "fun.h"
-
 #include <iostream>
+
+#include "fun.h"
 
 int main() {
   const char* s1 = "  hello world 123 abc  ";
